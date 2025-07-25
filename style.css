@@ -1,0 +1,81 @@
+.nav
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.navlink
+{
+    color: black;
+    padding: 1%;
+    font-size: 110%;
+    text-decoration: none;
+}
+.main2
+{
+    display: flex;
+
+}
+.profile
+{
+    width:25%;
+    padding: 5%;
+}
+.aboutme
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5%;
+}
+
+.imagecontainer
+{
+    display: flex;
+    justify-content: space-around;
+}
+.main3
+{
+    padding-top: 5%;
+}
+.hobbyimage
+{
+    width: 20%;
+}
+.hobbycontainer
+{
+    display: flex;
+}
+.hobbytext
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 3%;
+}
+.main4
+{
+    padding-top: 10%;
+}
+.edimgcont
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    padding-top: 5%;
+}
+.edimg
+{
+
+}
+.edtxtcont
+{
+    display: flex;
+    justify-content: space-around;
+}
+.edtxt
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+    padding: 3%;
+}
