@@ -10,72 +10,201 @@
     font-size: 110%;
     text-decoration: none;
 }
+h1
+{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+
+
+
+
 .main2
 {
-    display: flex;
-
+    border: 8px solid #D5BDAF;
+    padding: 5%;
+    background-color: #E3D5CA;
+}
+.hobbysh1
+{
+    padding-top: 5%;
 }
 .profile
 {
-    width:25%;
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #D6CCC2;
+    background-color: #F5EBE0;
+    border-radius: 50px;
+
+}
+.pfp
+{
+    width: 30%;
+    height: 30%;
     padding: 5%;
 }
-.aboutme
+.profiletxt
 {
+    display: flex;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 5%;
+    text-align: center;
+    align-items: center;
 }
 
-.imagecontainer
+.hobbys
+{
+    padding: 2%;
+    border: 5px solid #D6CCC2;
+    background-color: #F5EBE0;
+    border-radius: 50px;
+}
+.hobbyarea
 {
     display: flex;
-    justify-content: space-around;
+    padding: 5%;
+    border: 5px solid #D6CCC2;
+    margin: 5%;
+    border-radius: 50px;
+    background-color: #D5BDAF;
+
 }
-.main3
+.hobbyimg
 {
-    padding-top: 5%;
+    width: 30%;
 }
-.hobbyimage
-{
-    width: 20%;
-}
-.hobbycontainer
-{
-    display: flex;
-}
-.hobbytext
+
+.hobbytxt
 {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 20px;
     padding: 3%;
+    text-align: center;
 }
-.main4
+
+
+
+
+
+.main3
 {
-    padding-top: 10%;
+    border: #CCD5AE 8px solid;
 }
-.edimgcont
+.h1ed
+{
+    background-color: #FAEDCD;
+    padding: 2%;
+    margin: 0%;
+}
+
+.row1, .row2
 {
     display: flex;
-    justify-content: space-around;
-    padding: 2%;
-    padding-top: 5%;
+    padding: 3%;
+    background-color: #FAEDCD;
+}
+.edarea
+{
+    border: 8px solid #CCD5AE;
+    background-color: #D4A373;
+    border-radius: 50px;
+    margin: 3%;
+
 }
 .edimg
 {
+    padding: 10%;
+    width: 80%;
+}
 
-}
-.edtxtcont
-{
-    display: flex;
-    justify-content: space-around;
-}
 .edtxt
 {
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 100%;
-    padding: 3%;
+    font-size: 120%;
+    padding: 10%;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+.main4
+{
+    border: 8px solid #D5BDAF;
+    background-color: #E3D5CA;
+}
+.main4h1
+{
+    margin: 0%;
+    background-color: #F5EBE0;
+}
+
+.row3
+{
+    display: flex;
+    padding: 7%;
+    background-color: #F5EBE0;
+}
+
+.projarea
+{
+    border: 8px solid #D6CCC2;
+    background-color: #D5BDAF;
+    border-radius: 50px;
+    margin: 7%;
+}
+.projarea:hover
+{
+    opacity: 70%;
+}
+
+.projimg
+{
+    padding: 10%;
+    width: 80%;
+}
+
+.projtxt
+{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 120%;
+    padding: 10%;
+    text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.projarea, .hobbyarea, .edarea {
+  transition: all 0.3s ease;
+}
+
+.projarea:hover, .hobbyarea:hover, .edarea:hover {
+  transform: scale(1.02);
+}
+
+
+.projarea {
+  perspective: 1000px;
+}
+.projimg {
+  transition: transform 0.6s;
+}
+.projarea:hover .projimg {
+  transform: rotateY(180deg);
 }
